@@ -1,0 +1,173 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "travel_diaries",
+      "profileImage": "https://i.pravatar.cc/150?img=12",
+      "postImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800",
+      "location": "Ooty, Tamil Nadu",
+      "caption": "Exploring nature! 🌿⛰️",
+      "likes": 1248,
+      "comments": 86
+    },
+    {
+      "id": "2",
+      "username": "foodie_world",
+      "profileImage": "https://i.pravatar.cc/150?img=47",
+      "postImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800",
+      "location": "Chennai, Tamil Nadu",
+      "caption": "Good food, good mood! 🍕❤️",
+      "likes": 2567,
+      "comments": 142
+    },
+    {
+      "id": "3",
+      "username": "daily_aesthetics",
+      "profileImage": "https://i.pravatar.cc/150?img=33",
+      "postImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800",
+      "location": "Kerala, India",
+      "caption": "Somewhere between dreams and reality. ✨",
+      "likes": 3891,
+      "comments": 215
+    }
+  ],
+  "profile": {
+    "id": "1",
+    "username": "pratheep ",
+    "fullName": "Your Name",
+    "profileImage": "https://i.pravatar.cc/150?img=12",
+    "followers": 1250,
+    "following": 540,
+    "postsCount": 12
+  },
+  "suggestions": [
+    {
+      "id": "1",
+      "username": "priya_sharma",
+      "fullName": "Priya Sharma",
+      "profileImage": "https://i.pravatar.cc/150?img=44"
+    },
+    {
+      "id": "2",
+      "username": "rahul_photography",
+      "fullName": "Rahul Kumar",
+      "profileImage": "https://i.pravatar.cc/150?img=51"
+    },
+    {
+      "id": "3",
+      "username": "ananya_styles",
+      "fullName": "Ananya Reddy",
+      "profileImage": "https://i.pravatar.cc/150?img=32"
+    },
+    {
+      "id": "4",
+      "username": "vijay_travels",
+      "fullName": "Vijay Kumar",
+      "profileImage": "https://i.pravatar.cc/150?img=59"
+    },
+    {
+      "id": "5",
+      "username": "meera_art",
+      "fullName": "Meera Krishnan",
+      "profileImage": "https://i.pravatar.cc/150?img=48"
+    },
+    {
+      "id": "6",
+      "username": "ananya_styles",
+      "fullName": "Ananya Reddy",
+      "profileImage": "https://i.pravatar.cc/150?img=32"
+    },
+    {
+      "id": "7",
+      "username": "vijay_travels",
+      "fullName": "Vijay Kumar",
+      "profileImage": "https://i.pravatar.cc/150?img=59"
+    },
+    {
+      "id": "8",
+      "username": "meera_art",
+      "fullName": "Meera Krishnan",
+      "profileImage": "https://i.pravatar.cc/150?img=48"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "username": "your_profile",
+      "profileImage": "https://i.pravatar.cc/150?img=12",
+      "storyImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1080",
+      "isYourStory": true,
+      "isViewed": false
+    },
+    {
+      "id": "2",
+      "username": "travel_diaries",
+      "profileImage": "https://i.pravatar.cc/150?img=5",
+      "storyImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800",
+      "isYourStory": false,
+      "isViewed": false
+    },
+    {
+      "id": "3",
+      "username": "foodie_world",
+      "profileImage": "https://i.pravatar.cc/150?img=47",
+      "storyImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800",
+      "isYourStory": false,
+      "isViewed": false
+    },
+    {
+      "id": "4",
+      "username": "daily_aesthetics",
+      "profileImage": "https://i.pravatar.cc/150?img=33",
+      "storyImage": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1080",
+      "isYourStory": false,
+      "isViewed": true
+    },
+    {
+      "id": "5",
+      "username": "priya_sharma",
+      "profileImage": "https://i.pravatar.cc/150?img=44",
+      "storyImage": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1080",
+      "isYourStory": false,
+      "isViewed": false
+    },
+    {
+      "id": "6",
+      "username": "rahul_photography",
+      "profileImage": "https://i.pravatar.cc/150?img=51",
+      "storyImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1080",
+      "isYourStory": false,
+      "isViewed": false
+    },
+    {
+      "id": "7",
+      "username": "ananya_styles",
+      "profileImage": "https://i.pravatar.cc/150?img=32",
+      "storyImage": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1080",
+      "isYourStory": false,
+      "isViewed": true
+    }
+  ],
+  "followers": [
+    {
+      "id": "nGrepxxQYrg",
+      "username": "priya_sharma"
+    },
+    {
+      "id": "6AZlMYi14Ag",
+      "username": "rahul_photography"
+    },
+    {
+      "id": "Xczu1SarGXg",
+      "username": "ananya_styles"
+    },
+    {
+      "id": "SkCmHE266WY",
+      "username": "vijay_travels"
+    },
+    {
+      "id": "YO1CaZE1tAo",
+      "username": "meera_art"
+    }
+  ]
+}
