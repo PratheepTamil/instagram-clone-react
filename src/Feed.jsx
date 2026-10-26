@@ -1,6 +1,6 @@
 import React from 'react'
 import Stories from './Stories'
-import Posts from './posts'
+import Posts from './Posts'
 
 function Feed() {
   return (

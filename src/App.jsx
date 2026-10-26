@@ -1,5 +1,4 @@
 import Feed from "./Feed";
-import Posts from "./posts";
 import Sidebar from "./Sidebar";
 import Suggestion from "./Suggestion";
 function App() {
