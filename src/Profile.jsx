@@ -10,12 +10,12 @@ function Profile() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/profile")
+      .get("http://instagram-clone-react-rabt.onrender.com/profile")
       .then((data) => setProfile(data.data))
       .catch((err) => console.log(err));
 
     axios
-      .get("http://localhost:3000/followers")
+      .get("http://instagram-clone-react-rabt.onrender.com/followers")
       .then((data) => setFollowers(data.data))
       .then(setUnFolloewd(!unfolloewd))
       .catch((err) => console.log(err));
@@ -29,14 +29,14 @@ function Profile() {
   }
   const handleUpdate = async () => {
     axios
-      .put("http://localhost:3000/profile", profile)
+      .put("http://instagram-clone-react-rabt.onrender.com/profile", profile)
       .then(console.log("Updated"))
       .catch((err) => console.log(err));
   };
 
   const handleUnFollow = async (id) => {
     axios
-      .delete(`http://localhost:3000/followers/${id}`)
+      .delete(`http://instagram-clone-react-rabt.onrender.com/followers/${id}`)
       .then(alert("un folloe"))
       .catch((err) => console.log(err));
   };

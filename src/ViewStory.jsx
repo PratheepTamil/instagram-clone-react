@@ -9,7 +9,7 @@ function ViewStory() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:3000/stories/${id}`)
+    fetch(`http://instagram-clone-react-rabt.onrender.com/stories/${id}`)
       .then((data) => data.json())
       .then((data) => setStory(data))
       .catch((err) => console.log(err));
