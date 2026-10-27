@@ -6,12 +6,12 @@ function Suggestion() {
   const [suggestions, setSuggestions] = useState([]);
 
   useEffect(() => {
-    fetch("http://instagram-clone-react-rabt.onrender.com/profile")
+    fetch("https://instagram-clone-react-rabt.onrender.com/profile")
       .then((data) => data.json())
       .then((data) => setProfile(data))
       .catch((err) => console.log(err));
 
-    fetch("http://instagram-clone-react-rabt.onrender.com/suggestions")
+    fetch("https://instagram-clone-react-rabt.onrender.com/suggestions")
       .then((data) => data.json())
       .then((data) => setSuggestions(data))
       .catch((err) => console.log(err));
@@ -19,7 +19,7 @@ function Suggestion() {
 
 
   const handleFollow =async (id, username) => {
-    axios.post('http://instagram-clone-react-rabt.onrender.com/followers',{"id" : id, "username" : username})
+    axios.post('https://instagram-clone-react-rabt.onrender.com/followers',{"id" : id, "username" : username})
     .then(alert('Followed'))
     .catch(err => console.log(err));
   }

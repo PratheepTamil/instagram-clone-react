@@ -7,7 +7,7 @@ function Stories() {
 
  let tot = 0;
   useEffect(() => {
-    fetch("http://instagram-clone-react-rabt.onrender.com/stories")
+    fetch("https://instagram-clone-react-rabt.onrender.com/stories")
       .then((data) => data.json())
       .then((data) => setStories(data))
       .catch((err) => console.log(err));
