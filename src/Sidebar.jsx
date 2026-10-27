@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Instatext from "src\assets\insta-text.png"
 function Sidebar() {
 
   const navigate = useNavigate();
@@ -9,7 +10,7 @@ function Sidebar() {
         <div className="mt-2">
           <img
             className="logo-text"
-            src="src\assets\insta-text.png"
+            src={Instatext}
             alt="Instagram text"
           />
         </div>
